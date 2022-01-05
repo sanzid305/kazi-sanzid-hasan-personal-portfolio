@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;  
+}
+/* default style  */
+html{
+    font-size: 10px;
+}
+ p,
+ a,
+ span{
+     font-size: 1.6rem;
+ }
+
+.container{
+    width: 1128px;
+    margin: 0 auto;
+}
+.button{
+    text-decoration: none;
+    background: #bf4a4a;
+    padding: 1rem 3rem;
+    border-radius: 5px;
+    color: white;
+}
+section,
+footer{
+    padding: 4.5rem 0;
+}
+/*********************/
+
+
+#welcome-part{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.welcome-content {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 2rem 0 0;
+}
+.welcome-title h1,span {
+    font-size: 5.9rem;
+    text-transform: capitalize;
+    margin-left: 1rem;
+}
+
+.subtitle{
+    color: #bf4a4a;
+}
+.welcome-desc p {
+    margin: 3rem 0;
+}
+.welcome-image img{
+    width: 60%;
+}
+.welcome-image {
+    display: flex;
+    justify-content: center;
+}
+.welcome-title {border-left: 7px solid red;height: 131px;display: flex;justify-content: center;flex-direction: column;}
+
+.welcome-title h1 span {
+    margin-left: 0px;
+}
+
+/* my goal section  */
+
+.goal-contents img {
+    width: 33%;
+}
+
+.goal-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.goal-contents h2 {
+    font-size: 1.8rem;
+    color: #167fa1;
+    margin: .5rem;
+}
+
+.goal-contents {
+    background: #cbd7ea;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 5rem 4rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.goal-contents p {
+    padding: 1rem 0rem;
+}
+.goal-contents.goal-content-2 {
+    margin: 0 3rem;
+    background: #db8a8a;
+}
+
+.goal-contents.goal-content-3 {
+    background: #54d17a;
+}
+
+.goal-contents.goal-content-3 p, h2 {
+    color: white;
+}
+.goal-title h1 {
+    font-size: 4.8rem;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 2rem 0;
+}
+.goal-title h1 .subtitle{
+    font-size: 4.8rem;
+}
+
+/* work-limit------------ */
+#work-limit{
+    /* position: relative; */
+    overflow: hidden;
+}
+/* .work-limit-main-wrapper{
+    position:absolute;
+    background:url('./image/shape-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 50%;
+    left:0;
+} */
+.work-limit-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.work-limit-img img {
+    width: 85%;
+}
+
+.work-limit-img {
+    display: flex;
+    justify-content: center;
+    width: 35%;
+}
+.work-limit-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 62%;
+}
+
+.limit-title h1 {
+    font-size: 4.5rem;
+    text-transform: capitalize;
+    padding-right: 34rem;
+}
+
+.limit-desc p {
+    padding-right: 0rem;
+    padding-bottom: 2rem;
+}
+
+/* global community  */
+#global-community{
+    overflow: hidden;
+}
+.community-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.community-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 78px;
+}
+
+.community-img img {
+    width: 100%;
+}
+.community-title h1 {
+    font-size: 4.8rem;
+    text-transform: capitalize;
+    padding-right: 20rem;
+}
+
+.community-descp p {
+    padding-bottom: 3rem;
+}
+/*-------------- footer ------------ */
+#footer{
+    width: 100%;
+    background: black;
+    padding: 5rem 0;
+}
+.footer-content h1 {
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    padding: 1rem 0;
+}
+.footer-content h1 .subtitle{
+    font-size: 2.5rem;
+    color: #e13333;
+}
+
+.footer-content p {
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+}
