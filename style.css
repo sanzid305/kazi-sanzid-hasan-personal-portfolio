@@ -199,6 +199,29 @@ footer{
 .community-descp p {
     padding-bottom: 3rem;
 }
+/* media engagement  */
+#media-engagement{
+    margin-top: 5rem !important;
+    margin-bottom: 5rem;
+}
+.enagagement-wrapper{
+    width: 98%;
+    box-shadow: 0px 0px 10px 2px #ddd;
+    padding: 40px 0px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    border-radius: 15px;
+}
+.engagement-boxes{
+    width: 32%;
+}
+
+.engagement-boxes h1{font-size: 2.1rem;line-height: 3rem;}
+.engagement-boxes span,
+.review-box span{font-size: 14px}
+
 /*-------------- footer ------------ */
 #footer{
     width: 100%;
